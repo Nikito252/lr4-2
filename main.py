@@ -1,7 +1,7 @@
 # Функция для получения списка квадратов чисел
 def get_squares(numbers):
 # Используем генератор списков для создания нового списка квадратов
-return [number**2 for number in numbers]
+    return [number**2 for number in numbers]
 # Пример использования функции
 original_list = [1, 2, 3, 4, 5]  # Исходный список чисел
 squared_list = get_squares(original_list)  # Получаем список квадратов чисел
